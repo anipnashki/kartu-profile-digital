@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			const platform = button.textContent;
 
 			if (platform === 'Github') {
-				window.open('', '_blank');
+				window.open('https://github.com/anipnashki', '_blank');
 				alert('anda akan menuju akun github!');
 			} else if (platform === 'Instagram') {
 				window.open('', '_blank');
