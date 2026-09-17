@@ -18,7 +18,13 @@ document.addEventListener('DOMContentLoaded', () => {
 		button.addEventListener('click', (event) => {
 			event.preventDefault();
 			const platform = button.textContent;
-			alert('anda memilih untuk membuka tautan ${platform}.');
+
+			if (platform === 'Github') {
+				window.open('', '_blank');
+				alert('anda akan menuju akun github!');
+			} else if (platform === 'Instagram') {
+				window.open('', '_blank');
+				alert('anda akan menuju akun Instagram!');
 		});
 	});
 	
